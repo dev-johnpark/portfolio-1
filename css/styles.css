@@ -1,3 +1,5 @@
+/* ATTRIBUTES */
+
 body {
   margin: 0;
   text-align: center;
@@ -26,16 +28,11 @@ h2 {
   font-size: 1.25rem;
   font-weight: bolder;
   margin: 0;
-
 }
 
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
-}
-
-p {
-  font-family: 'Merriweather', serif;
 }
 
 hr {
@@ -46,37 +43,13 @@ hr {
   width: 2.5%;
 
 }
-
-.top-container {
-  background-color: #E4EFE7;
-  position: relative;
-  padding-top: 170px;
+p {
+  font-family: 'Merriweather', serif;
 }
 
-.middle-container {
-  line-height: 2;
-}
 
-.languages {
-  text-align: left;
-}
 
-.bottom-container {
-  background-color: #66BFBF;
-  padding-top: 30px;
-  padding-bottom: 30px;
-
-}
-
-.developer {
-  text-decoration: underline;
-}
-
-.top-cloud {
-  position: absolute;
-  bottom: 550px;
-  right: 600px;
-}
+/* CLASS-ID */
 
 .bottom-cloud {
   position: absolute;
@@ -84,53 +57,10 @@ hr {
   left: 600px;
 }
 
-.mountain {
-  position: relative;
-  bottom: 0;
-}
-
-.html-giphy {
-  width: 25%;
-  float: left;
-
-}
-
-.mail-com-giphy {
-  width: 25%;
-  float: right;
-
-}
-.think-giphy {
-  width: 25%;
-  float: left;
-
-}
-
-.profile {
-  padding-top: 50px;
-  text-align: left;
-}
-
-.profile-pic {
-  margin-left: 25px;
-  margin-right: 50px;
-
-}
-
-.profile-row {
-  display: inline-block;
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  line-height: 2;
-
-}
-.skill-row {
-  width: 50%;
-  margin: auto;
-  text-align: left;
-  line-height: 2;
-
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .btn {
@@ -154,12 +84,81 @@ hr {
   text-decoration: none;
 }
 
-.git-gif {
-  width: 50px;
-}
-
 .copyright-footer {
   color: #EAF6F6;
   font-size: 12px;
   font-weight: bold;
+}
+
+.developer {
+  text-decoration: underline;
+}
+
+.git-gif {
+  width: 50px;
+}
+
+.html-giphy {
+  width: 25%;
+  float: left;
+}
+
+.languages {
+  text-align: left;
+}
+
+.middle-container {
+  line-height: 2;
+}
+
+.mountain {
+  position: relative;
+  bottom: 0;
+}
+
+.mail-com-giphy {
+  width: 25%;
+  float: right;
+}
+
+.profile {
+  padding-top: 50px;
+  text-align: left;
+}
+
+.profile-pic {
+  margin-left: 25px;
+  margin-right: 50px;
+}
+
+.profile-row {
+  display: inline-block;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.think-giphy {
+  width: 25%;
+  float: left;
+}
+
+.top-cloud {
+  position: absolute;
+  bottom: 550px;
+  right: 600px;
+}
+
+.top-container {
+  background-color: #E4EFE7;
+  position: relative;
+  padding-top: 170px;
 }
